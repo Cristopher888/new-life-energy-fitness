@@ -67,4 +67,8 @@ Public Class MainMenu
         icoCurrentWindow.IconChar = IconChar.Home
         lblCurrentWindow.Text = "Inicio"
     End Sub
+
+    Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.WindowState = FormWindowState.Maximized
+    End Sub
 End Class

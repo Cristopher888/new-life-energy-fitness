@@ -65,7 +65,7 @@ Partial Class MainMenu
         Panel3.Dock = DockStyle.Left
         Panel3.Location = New Point(0, 0)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(250, 900)
+        Panel3.Size = New Size(250, 881)
         Panel3.TabIndex = 1
         ' 
         ' btnMas
@@ -272,16 +272,16 @@ Partial Class MainMenu
         Panel5.Dock = DockStyle.Right
         Panel5.Location = New Point(248, 0)
         Panel5.Name = "Panel5"
-        Panel5.Size = New Size(2, 900)
+        Panel5.Size = New Size(2, 881)
         Panel5.TabIndex = 0
         ' 
         ' Panel6
         ' 
         Panel6.Controls.Add(Panel7)
         Panel6.Dock = DockStyle.Bottom
-        Panel6.Location = New Point(250, 775)
+        Panel6.Location = New Point(250, 756)
         Panel6.Name = "Panel6"
-        Panel6.Size = New Size(1250, 125)
+        Panel6.Size = New Size(1194, 125)
         Panel6.TabIndex = 2
         ' 
         ' Panel7
@@ -290,7 +290,7 @@ Partial Class MainMenu
         Panel7.Dock = DockStyle.Top
         Panel7.Location = New Point(0, 0)
         Panel7.Name = "Panel7"
-        Panel7.Size = New Size(1250, 2)
+        Panel7.Size = New Size(1194, 2)
         Panel7.TabIndex = 0
         ' 
         ' Panel4
@@ -303,7 +303,7 @@ Partial Class MainMenu
         Panel4.ForeColor = Color.White
         Panel4.Location = New Point(250, 0)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(1250, 95)
+        Panel4.Size = New Size(1194, 95)
         Panel4.TabIndex = 3
         ' 
         ' lblCurrentWindow
@@ -313,7 +313,7 @@ Partial Class MainMenu
         lblCurrentWindow.ForeColor = Color.White
         lblCurrentWindow.Location = New Point(96, 33)
         lblCurrentWindow.Name = "lblCurrentWindow"
-        lblCurrentWindow.Size = New Size(59, 28)
+        lblCurrentWindow.Size = New Size(47, 21)
         lblCurrentWindow.TabIndex = 2
         lblCurrentWindow.Text = "Inicio"
         ' 
@@ -336,7 +336,7 @@ Partial Class MainMenu
         Panel8.Dock = DockStyle.Bottom
         Panel8.Location = New Point(0, 93)
         Panel8.Name = "Panel8"
-        Panel8.Size = New Size(1250, 2)
+        Panel8.Size = New Size(1194, 2)
         Panel8.TabIndex = 0
         ' 
         ' PanelDesktop
@@ -344,19 +344,19 @@ Partial Class MainMenu
         PanelDesktop.Dock = DockStyle.Fill
         PanelDesktop.Location = New Point(250, 95)
         PanelDesktop.Name = "PanelDesktop"
-        PanelDesktop.Size = New Size(1250, 680)
+        PanelDesktop.Size = New Size(1194, 661)
         PanelDesktop.TabIndex = 4
         ' 
         ' MainMenu
         ' 
         AutoScaleMode = AutoScaleMode.None
         BackColor = Color.FromArgb(CByte(41), CByte(41), CByte(41))
-        ClientSize = New Size(1500, 900)
+        ClientSize = New Size(1444, 881)
         Controls.Add(PanelDesktop)
         Controls.Add(Panel4)
         Controls.Add(Panel6)
         Controls.Add(Panel3)
-        MinimumSize = New Size(1518, 947)
+        MinimumSize = New Size(1438, 858)
         Name = "MainMenu"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Menu"
