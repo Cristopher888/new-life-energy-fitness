@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "new-life-energy-fitness", "new-life-energy-fitness\new-life-energy-fitness.vbproj", "{1C70C8EF-6D5C-498E-84F7-7D4BE10A149F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C70C8EF-6D5C-498E-84F7-7D4BE10A149F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C70C8EF-6D5C-498E-84F7-7D4BE10A149F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C70C8EF-6D5C-498E-84F7-7D4BE10A149F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C70C8EF-6D5C-498E-84F7-7D4BE10A149F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682D23D9-5102-4364-A79D-AEFF5D5225D8}
+	EndGlobalSection
+EndGlobal
